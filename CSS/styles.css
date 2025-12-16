@@ -1,0 +1,27 @@
+:root{
+    --color-bg: #f4f6f8;
+    --color-text: #333333;
+    --color-link: #1a73e8;
+    --font-base: sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-bg);
+    font-family: var(--font-base);
+    color: var(--color-text)
+}
+
+.header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin: ;
+}
