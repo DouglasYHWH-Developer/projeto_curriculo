@@ -23,5 +23,15 @@ body{
     width: 100%;
     padding: 1rem;
     margin-bottom: 2rem;
-    margin: ;
 }
+
+.nav{
+    max-width: 1200px;  
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
