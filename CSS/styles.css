@@ -1,7 +1,6 @@
 :root{
     --color-bg: #f4f6f8;
     --color-text: #333333;
-    --color-link: #1a73e8;
     --font-base: sans-serif;
 }
 
@@ -40,7 +39,7 @@ body{
 .nav-item{
     border: 1px solid transparent;
     border-radius: .5rem;
-    padding: 0.5rem;
+    padding: .4rem;
     margin: 0 .2rem
 }
 
@@ -50,4 +49,17 @@ body{
     background-color: var(--color-bg);
     cursor: pointer;
     transition: background-color 0.5s ease;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+    color : var(--color-text);
+    letter-spacing: 1px;
+}
+
+.main-content{
+    max-width: 1900px;
+    margin: 1rem auto;
+    padding: 0 1rem;
 }
