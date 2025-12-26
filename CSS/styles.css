@@ -27,7 +27,7 @@ body{
 }
 
 .nav{
-    max-width: 1200px;  
+    max-width: 1900px;  
 }
 
 .nav-list{
@@ -59,7 +59,7 @@ body{
 }
 
 .main-content{
-    max-width: 1200px;
+    min-width:200px;
     margin: auto;
     padding: auto;
 }
@@ -72,7 +72,30 @@ body{
 }
 
 .section-home{
-    text-align: left;
-    margin-bottom: 2px;
-    height: 600px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-home h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.section-content p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.section-content h2{
+   margin-bottom: 1rem; 
+   border-bottom: 1px solid #e0e0e0;
+   padding-bottom: .5rem;
+   font-size: 2rem
+}
+
+.section-content .categoria{
+   margin: 2rem 0 1rem 0; 
+   padding: .5rem 0;
+   font-size: 1.3rem
 }
