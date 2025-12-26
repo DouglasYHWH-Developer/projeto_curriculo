@@ -95,7 +95,34 @@ body{
 }
 
 .section-content .categoria{
-   margin: 2rem 0 1rem 0; 
+   margin: 1.5rem 0 .2rem 0; 
    padding: .5rem 0;
    font-size: 1.3rem
+}
+
+.list-content{
+    margin: 0 0 .5rem 0 ;  
+    padding: .5rem 0;
+    list-style-type: none;
+}
+
+.list-content li{
+    margin: .2rem 0 .5rem 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+.experience-item{
+    border: 2px dashed red;
+    padding: 1rem;
+}
+
+.experience-item h4{
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+}
+
+.experience-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
 }
