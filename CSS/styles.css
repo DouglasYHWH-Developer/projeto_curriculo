@@ -132,3 +132,17 @@ body{
     gap: 1rem;
 }
 
+footer{
+    padding-top: 1rem;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row ;
+}
+.footer-content ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row ;
+}
