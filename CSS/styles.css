@@ -112,8 +112,9 @@ body{
     font-size: 1rem;
 }
 .experience-item{
-    border: 2px dashed red;
     padding: 1rem;
+    box-shadow: 0 2px 4px #e0e0e0;
+    border-radius: .5rem;
 }
 
 .experience-item h4{
@@ -121,8 +122,13 @@ body{
     font-size: 1.1rem;
 }
 
+.experience-item .categoria{
+    font-size: 1.5rem;
+}
+
 .experience-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 }
+
