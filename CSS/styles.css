@@ -134,15 +134,24 @@ body{
 
 footer{
     padding-top: 1rem;
+    max-width: 1200px;
+    margin: 1rem;
 }
 
 .footer-content{
     display: flex;
     justify-content: space-around;
-    flex-direction:row ;
+    flex-direction:row ; 
 }
+
 .footer-content ul{
     display: flex;
-    justify-content: space-around;
-    flex-direction:row ;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+}
+.footer-content ul li{
+    margin: 0 .5rem;
+    padding: 0 .5rem;
+    font-size: 1rem;
 }
