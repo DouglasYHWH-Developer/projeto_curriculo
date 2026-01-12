@@ -18,3 +18,5 @@ allLinks.forEach((link) =>{
         showSection(id)
     })
 })
+
+showSection('home'); // Exibe a seção inicial ao carregar a página
