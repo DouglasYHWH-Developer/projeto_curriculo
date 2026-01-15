@@ -30,6 +30,19 @@ body{
     max-width: 1900px;  
 }
 
+.btn-mobile{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-mobile span{
+    display: block;
+    width: 1.5rem;
+    height: 2px;
+    background-color: #e0e0e0;
+}
+
 .nav-list{
     display: flex;
     justify-content: space-around;
