@@ -10,7 +10,8 @@ function showSection(id){
         }else{
             secao.style.display = 'none';
         }
-    })
+    })  
+    btnMobile.classList.remove('active');
 }
 
 allLinks.forEach((link) =>{
