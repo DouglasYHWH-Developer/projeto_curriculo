@@ -24,6 +24,7 @@ allLinks.forEach((link) =>{
 
 btnMobile.addEventListener('click', (e)=>{
    navList.classList.toggle('active');
+   btnMobile.classList.toggle('active');
 })
 
 showSection('home'); // Exibe a seção inicial ao carregar a página
