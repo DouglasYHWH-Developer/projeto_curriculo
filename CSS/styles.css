@@ -98,9 +98,10 @@ body{
 }
 
 .main-content{
-    min-width:200px;
-    margin: auto;
-    padding: auto;
+    width: 95%;         
+    max-width: 1000px;   
+    margin: 0 auto
+    
 }
 .section-content{
     background-color: #ffffff;
@@ -117,7 +118,7 @@ body{
 
 .section-home h1{
     margin-bottom: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .section-content p{
@@ -127,10 +128,10 @@ body{
 }
 
 .section-content h2{
-   margin-bottom: 1rem; 
+   margin-bottom: 1.6rem; 
    border-bottom: 1px solid #e0e0e0;
    padding-bottom: .5rem;
-   font-size: 2rem
+   font-size: 1.6rem
 }
 
 .section-content .categoria{
@@ -186,9 +187,10 @@ footer{
 .footer-content ul{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     list-style-type: none;
 }
+
 .footer-content ul li{
     margin: 0 .5rem;
     padding: 0 .5rem;
